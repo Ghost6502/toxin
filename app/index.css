@@ -38,3 +38,35 @@ body {
 .header__link + .header__link {
   margin-left: 20px;
 }
+
+.header__link_dropdown {
+  position: relative;
+  margin-right: 15px;
+}
+.header__link_dropdown::after {
+  content: url(assets/dropdown.svg);
+  position: absolute;
+  right: -15px;
+}
+
+.button {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9));
+  background: linear-gradient(#BC9CFF, #8BA4F9);
+  border: 2px solid transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 22px;
+  margin-left: 20px;
+  padding: 9px 20px 10px;
+  cursor: pointer;
+}
+
+.button_outline {
+  color: #BC9CFF;
+  -webkit-box-shadow: inset 0px 0px 0px 100vw #fff;
+          box-shadow: inset 0px 0px 0px 100vw #fff;
+}

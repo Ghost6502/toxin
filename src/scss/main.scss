@@ -1,3 +1,7 @@
+$dark: #1F2041;
+$purple: #BC9CFF;
+$green: #6FCF97;
+
 body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -25,9 +29,40 @@ body {
 }
 
 .header__link {
-    color: #1F2041;
+    color: $dark;
     opacity: 50%;
-    & + .header__link {
+
+    &+.header__link {
         margin-left: 20px;
     }
+}
+
+.header__link_dropdown {
+    position: relative;
+    margin-right: 15px;
+
+    &::after {
+        content: url(../assets/dropdown.svg);
+        position: absolute;
+        right: -15px;
+    }
+}
+
+.button {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background: linear-gradient($purple, #8BA4F9);
+    border: 2px solid transparent;
+    box-shadow: none;
+    border-radius: 22px;
+    margin-left: 20px;
+    padding: 9px 20px 10px;
+    cursor: pointer;
+}
+
+.button_outline {
+    color: $purple;
+    box-shadow: inset 0px 0px 0px 100vw #fff;
 }

@@ -36,7 +36,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scs
   \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_logo_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/logo.svg */ \"./src/assets/logo.svg\");\n\r\n\r\nlet images = [_assets_logo_svg__WEBPACK_IMPORTED_MODULE_0__,]\r\nlet id = ['logo',]\r\n\r\nfor (let i = 0; i < images.length; i++)\r\n    document.getElementById(id[i]).src = images[i]\r\n\n\n//# sourceURL=webpack://webpack-start/./src/js/assets.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_logo_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/logo.svg */ \"./src/assets/logo.svg\");\n/* harmony import */ var _assets_dropdown_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/dropdown.svg */ \"./src/assets/dropdown.svg\");\n\r\n\r\n\r\nlet images = [_assets_logo_svg__WEBPACK_IMPORTED_MODULE_0__,]\r\nlet id = ['logo',]\r\n\r\nfor (let i = 0; i < images.length; i++)\r\n    document.getElementById(id[i]).src = images[i]\n\n//# sourceURL=webpack://webpack-start/./src/js/assets.js?");
+
+/***/ }),
+
+/***/ "./src/assets/dropdown.svg":
+/*!*********************************!*\
+  !*** ./src/assets/dropdown.svg ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"assets/dropdown.svg\";\n\n//# sourceURL=webpack://webpack-start/./src/assets/dropdown.svg?");
 
 /***/ }),
 
